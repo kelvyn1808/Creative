@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 120px;
+  background: #ffffff;
+  color: white;
+  font-family: "Inter", sans-serif;
+  height: 120px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px; /* Ajusta o espaço entre os itens */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #6b7280;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* 🔹 Home em negrito */
+nav ul li a.active {
+  font-weight: 600;
+  color: black;
+}
+
+/* 🔹 Botão azul para GET IN TOUCH */
+nav ul li a.btn {
+  display: inline-flex; /* Mantém alinhamento correto do texto */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  background: #1f1f39;
+  color: white;
+  width: 180px;
+  height: 40px;
+  padding: 8.07px 8.07px;
+  border-radius: 8px; /* Borda arredondada */
+  font-weight: bold;
+  font-size: 16px; /* Ajusta conforme necessário */
+  text-align: center;
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a.btn:hover {
+  background: darkblue;
+}
+
+/* Efeito ao passar o mouse */
+nav ul li a.btn:hover {
+  background: #363664;
+}
+.container-principal {
+  display: flex;
+  justify-content: space-between;
+  gap: 188px;
+  padding: 0 120px;
+width:calc(100vh - 120px);
+}
+.text {
+  display: flex;
+  padding-top: 129px;
+  padding-left: 11px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 807px;
+  height: 510px;
+  margin-left: 120px;
+}
+h1 {
+  color: #1f1f39;
+  font-size: 70px;
+  font-weight: 700;
+  width: 600px;
+  font-family: "Inter", sans-serif;
+  margin-left: -208px;
+}
+.text-principal {
+  display: flex;
+  width: 807px;
+  height: 510px;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #1f1f39b2;
+  opacity: 50%;
+}
+.button {
+  display: flex;
+  background-color: #1f1f39;
+  width: 166px;
+  height: 66px;
+  text-decoration: none;
+  color: white;
+  font-size: 24.24px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  margin-left: -640px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10.87px 22.87px;
+}
+section {
+  display: flex;
+  margin: 300px 120px;
+  padding: 0px 120px;
+}
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  width: 1000px;
+}
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  width: 1488px;
+  margin-top: 109px;
+  
+  & .card{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    margin-top: 25px;
+
+    & span {
+      font-weight: Bold;
+     
+    }
+  }
+}
+.about {
+  background-color: black;
+  width: 1739px;
+  height: 637px;
+
+
+
+  & .content {
+    padding-left: 120px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-family: "Inter", sans-serif;
+    color: white;
+
+    & h2 {
+      font-size: 22px;
+      padding-bottom: 29px;
+      font-weight: 400;
+
+    }
+    & p {
+      font-size: 40px;
+      font-weight: 500;
+      width: 1019px;
+      padding-bottom: 55px;
+
+    }
+    & button {
+      cursor: pointer;
+      background-color: #ffffff;
+      padding: 18px 63px;
+      color: black;
+       font-family: "Source Sans 3", sans-serif;
+       font-weight: 700;
+       font-size: 24px;
+       border: none;
+       border-radius: 16px;
+    }
+    & button:hover {
+      background-color: #f0f0f080;
+    }
+  }
+}
+footer {
+  display: flex;
+  background-color: black;
+   width: 1739px;
+   height: 139px;
+   border-top: 1px solid #4F4F4F;
+   margin-top: -345px;
+   margin-left: 120px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 120px;
+   color: #FFFFFF80;
+   & .icons {
+    display: flex;
+    gap: 30px;
+   }
+  & img { 
+    cursor: pointer;
+   }
+}
